@@ -6,13 +6,9 @@
 // Put your answer below -------------------------
 
 
-
-
-
-
-
-
-
+function repeat(str, i) { 
+    return Array(i).fill(str);
+}
 
 // -----------------------------------------------
 
