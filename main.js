@@ -20,12 +20,9 @@ function repeat(str, i) {
 // Put your answer below -------------------------
 
 
-
-
-
-
-
-
+function reverseArr(arr) {
+    return arr.slice().reverse();
+}
 
 
 // -----------------------------------------------
