@@ -5,7 +5,6 @@
 
 // Put your answer below -------------------------
 
-
 function repeat(str, i) { 
     return Array(i).fill(str);
 }
@@ -19,11 +18,9 @@ function repeat(str, i) {
 
 // Put your answer below -------------------------
 
-
 function reverseArr(arr) {
     return arr.slice().reverse();
 }
-
 
 // -----------------------------------------------
 
@@ -33,14 +30,9 @@ function reverseArr(arr) {
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+function removeFalsy(arr) {
+    return arr.filter((element) => ![null, undefined, 0, false, NaN, ""].includes(element));
+}
 
 // -----------------------------------------------
 
