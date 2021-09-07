@@ -13,7 +13,6 @@ var number = function(array){
     return newArr;
   }
 
-
 // # 2
 // Filling an array (part 1)
 // https://www.codewars.com/kata/571d42206414b103dc0006a1/train/javascript
@@ -22,13 +21,15 @@ const arr = N => {
     return N === 0 || N === undefined ? [] : Array.from([...Array(N).keys()]);
 }
 
-
-
 // # 3
 // Drone Fly-By
 // https://www.codewars.com/kata/58356a94f8358058f30004b5/train/javascript
 
-
+function flyBy(lamps, drone) {
+    return drone.length > lamps.length
+        ? "o".repeat(lamps.length)
+        : "o".repeat(drone.length) + "x".repeat(lamps.length - drone.length);
+}
 
 
 // # 4
