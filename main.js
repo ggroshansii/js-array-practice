@@ -110,14 +110,11 @@ function arrEquality(arr1, arr2) {
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+function combineSubArrs(arr) {
+    return arr.reduce((accum, elem) => {
+        return accum.concat(elem);
+    }, []);
+}
 
 // -----------------------------------------------
 
