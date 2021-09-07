@@ -41,7 +41,16 @@ function getAverage(marks){
     })) / marks.length);
 }
 
-
 // #5
 // THE SOUL OF WIT: REVERSE AN ARRAY
 // https://www.codewars.com/kata/59b81886460387d8fc000043
+
+
+//Long solution
+const reverse = arr => {
+    let newArr = []
+    for (let i = 0; i < arr.length; i++) {
+        newArr.unshift(arr[i]);
+    }
+    return newArr;
+}
