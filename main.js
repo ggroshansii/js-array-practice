@@ -38,20 +38,17 @@ function removeFalsy(arr) {
 
 // ---------------------
 // Define a function that takes an array of nested arrays and returns an object composed of propeties equal to each nested array
-// const myArray = [['name', 'Charlie'], ['color', 'brown'], ['age', 10]];
+//const myArray = [['name', 'Charlie'], ['color', 'brown'], ['age', 10]];
 // returns { name: 'Charlie', color: 'brown', age: 10 };
 // ---------------------
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+function arrToObj(arr) {
+    let obj = {};
+    arr.forEach((elem) => obj[elem[0]] = elem[1])
+    return obj;
+}
 
 // -----------------------------------------------
 
@@ -62,14 +59,9 @@ function removeFalsy(arr) {
 
 // Put your answer below -------------------------
 
-
-
-
-
-
-
-
-
+function findUniqueVals(arr) {
+    return [...new Set(arr)];
+}
 
 // -----------------------------------------------
 
