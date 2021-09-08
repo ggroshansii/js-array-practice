@@ -127,10 +127,19 @@ function combineSubArrs(arr) {
 // Put your answer below -------------------------
 
 
+function arrSplit(arr, i){
+    let newArr = [];
+    let fullDivision = Math.floor(arr.length / i);
+    for (let j = 0; j < fullDivision; j++) {
+        newArr.push(arr.slice(0, i));
+    }
+    console.log(newArr[newArr.length-1[]];
+    newArr.push(arr.slice(newArr.length -1))
+    return newArr;
+}
 
-
-
-
+ 
+console.log(arrSplit([1,2,3,4,5], 3))
 
 
 
